@@ -1,0 +1,39 @@
+# Logs
+*.log
+*.err
+slurm-*.out
+logs/
+
+# Outputs
+results/
+tmp/
+work/
+scratch/
+
+# Sequencing data
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.sam
+*.bam
+*.bai
+
+# QC
+*_fastqc/
+*.html
+*.zip
+
+# featureCounts outputs (often large)
+*.counts.txt
+*.summary
+featureresults*.txt
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+.DS_Store
